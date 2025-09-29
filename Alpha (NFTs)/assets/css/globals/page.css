@@ -1,0 +1,272 @@
+html,
+body {
+  font-family: 'PF DinDisplay Pro';
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #131314;
+}
+
+html {
+  color: #fff;
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  color: #46A1EB;
+}
+
+a:hover,
+a.active {
+  color: #FBD649;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+img,
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hidden {
+  display: none;
+}
+
+.wrapper {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.222rem;
+  padding-right: 2.222rem;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.pause-overlay {
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  position: fixed;
+  text-align: center;
+  font-size: 3rem;
+  line-height:100vh;
+  background-color: rgba(0, 150, 136, 1);
+  transform: translate(-50%, -50%);
+  animation: pulseOpacity 3s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
+
+@keyframes pulseOpacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.bg-dots {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-image: url(/assets/images/bg-dots.png);
+  background-size: cover;
+}
+
+.section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.section_padding-s {
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+.section::after {
+  content: '';
+  width: 100%;
+  height: 3px;
+  display: block;
+  position: absolute;
+  background: linear-gradient(90deg, #1859B1 0%, #FBD649 100%);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, .6);
+  bottom: 0;
+  left: 0;
+}
+
+.section:last-of-type::after {
+  display: none;
+}
+
+.section_steps {
+  background-image: url(/assets/images/bg-steps.jpg);
+  background-size: cover;
+}
+
+.title {
+  font-family: 'DIN Next Stencil';
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2.888rem;
+  line-height: 102%;
+  color: #C0BFB6;
+}
+
+.sub-title {
+  font-size: 2.333rem;
+  color: #C0BFB6;
+}
+
+.title__highlight,
+.sub-title__highlight {
+  color: #FBD649;
+}
+
+.title_size-l {
+  font-size: 3.444rem;
+}
+
+.title_size-s {
+  font-size: 2.111rem;
+}
+
+.title_size-xs {
+  font-size: 2rem;
+}
+
+.title_p-right-5 {
+  padding-right: 5.5rem;
+}
+
+.align-center {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1025px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1105px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1185px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1265px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1340px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1420px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 950px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .title_p-right-5 {
+    padding-right: 0.7rem;
+  }
+
+  .title_size-xs {
+    font-size: 1.8rem;
+  }
+
+  .sub-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .title {
+    font-size: 2.32rem;
+  }
+
+  .title_size-xs {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  h2.title {
+    text-align: center;
+  }
+
+  .wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .sub-title {
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 370px) {
+  h2.title {
+    font-size: 1.9rem;
+  }
+}

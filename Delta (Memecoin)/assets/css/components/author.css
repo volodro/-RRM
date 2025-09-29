@@ -1,0 +1,113 @@
+.author__about {
+  font-size: 1.777rem;
+  margin-top: .555rem;
+}
+
+.author__quoute {
+  margin-top: 1.667rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+}
+
+.author__quoute-text {
+  background-color: rgba(64, 181, 150, .4);
+  border-radius: 0 0 0 1.111rem;
+  box-sizing: border-box;
+  padding: 1rem .722rem;
+  text-align: right;
+  font-size: 1.2rem;
+  line-height: 134%;
+  max-width: 19rem;
+}
+
+.author__quoute-img {
+  margin-left: 1.111rem;
+}
+
+.author__quoute-img img {
+  width: 3.111rem;
+  height: 3.111rem;
+}
+
+.author__links {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-top: 1.111rem;
+}
+
+.author__links-remes {
+  width: 4.722rem;
+  height: 4.722rem;
+}
+
+.author__links-crimea {
+  width: 10rem;
+  height: 3.888rem;
+}
+
+.author__links a:last-child {
+  margin-left: 1.777rem;
+}
+
+.author__gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author__gallery img {
+  width: 33%;
+  max-width: 16rem;
+}
+
+.author__links::after {
+  content: '';
+  height: 8.5rem;
+  width: 13.055rem;
+  position: absolute;
+  background-size: cover;
+  background-image: url(/assets/images/rrm-metal-arm-l.png);
+  bottom: -5rem;
+  right: -6rem;
+}
+
+@media (max-width: 767px) {
+  .author__links::after {
+    display: none;
+  }
+
+  .author {
+    text-align: center;
+  }
+
+  .author__quoute {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .author__links {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .author__about {
+    font-size: 1.5rem;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .author__quoute-img {
+    position: relative;
+    top: 20px;
+    margin-left: 0;
+    order: -1;
+  }
+
+  .author__quoute-text {
+    text-align: center;
+    padding-top: 20px;
+    border-bottom-right-radius: 1.111rem;
+  }
+}

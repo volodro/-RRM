@@ -1,0 +1,151 @@
+.strategy {
+  max-width: 71.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.strategy .title {
+  text-align: center;
+}
+
+.strategy__list {
+  position: relative;
+  font-size: 1.667rem;
+  margin-top: 3rem;
+  font-weight: 300;
+}
+
+.strategy__number {
+  width: 2.778rem;
+  height: 2.778rem;
+  font-size: 2.778rem;
+  line-height: 2.778rem;
+  background-color: #fff;
+  font-family: 'DIN Next Stencil';
+  margin-bottom: 1.667rem;
+  border-radius: 50%;
+  text-align: center;
+  color: #000;
+}
+
+.strategy__list .col-md-6:not(:first-child) {
+  margin-top: 3.333rem;
+}
+
+.strategy__descr {
+  list-style-type: disc;
+  padding-left: 2rem;
+  line-height: 140%;
+}
+
+.strategy__list::before {
+  content: '';
+  width: 36.444rem;
+  height: 19.333rem;
+  position: absolute;
+  background-image: url(/assets/images/strategy-lines.svg);
+  background-size: cover;
+  z-index: -1;
+  left: 1.5rem;
+  top: 2rem;
+}
+
+.strategy__list .col-md-6:nth-child(2) {
+  position: relative;
+  left: 3rem;
+  top: 6rem;
+}
+
+.strategy__footer {
+  margin-top: 8.5rem;
+  position: relative;
+}
+
+
+.strategy__footer-text {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.333rem;
+  max-width: 26.111rem;
+  line-height: 133%;
+}
+
+.strategy__footer-img {
+  bottom: -5rem;
+  width: 26.444rem;
+  height: 29.555rem;
+  position: absolute;
+  background-image: url(/assets/images/rrm-weapon-stinger.png);
+  background-size: cover;
+  right: 2rem;
+}
+
+@media (max-width: 950px) {
+  .strategy__list::before {
+    width: 34rem;
+    height: 18.03rem;
+    top: 1rem;
+  }
+
+  .strategy__descr {
+    font-size: 1.35rem;
+  }
+
+  .strategy__list .col-md-6:not(:first-child) {
+    margin-top: 2.5rem;
+  }
+
+  .strategy__footer-img {
+    width: 20rem;
+    height: 22.35rem;
+  }
+
+  .strategy__footer {
+    margin-top: 5.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .strategy__list .col-md-6:nth-child(2) {
+    position: static;
+  }
+
+  .strategy__list::before {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .strategy__footer-img {
+    width: 14rem;
+    height: 15.65rem;
+    bottom: -3rem;
+    right: 0;
+  }
+
+  .strategy__number {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .strategy__descr {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .strategy__footer-img {
+    width: 10rem;
+    height: 11.18rem;
+    z-index: -1;
+    opacity: .7;
+  }
+
+  .strategy__footer-text {
+    font-size: 1.1rem;
+    max-width: 19rem;
+  }
+}

@@ -1,0 +1,61 @@
+.footer {
+  position: relative;
+  background-image: url(/assets/images/bg-shadow.png);
+  background-position: 0 0;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  z-index: 1;
+}
+
+.footer .wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin-right: 4rem;
+  line-height: 136%;
+}
+
+.footer__logo svg {
+  color: #232325;
+  margin-right: 1rem;
+}
+
+.footer .wrapper::before {
+  right: 1rem;
+  content: '';
+  bottom: -2rem;
+  position: absolute;
+  background-image: url(/assets/images/rrm-weapons-footer.png);
+  background-size: cover;
+  width: 28.055rem;
+  height: 8.5rem;
+  z-index: -1;
+}
+
+@media (max-width: 650px) {
+  .footer .wrapper {
+    flex-direction: column;
+  }
+
+  .footer .wrapper::before {
+    width: 20rem;
+    height: 6.06rem;
+    right: 50%;
+    margin-right: -10rem;
+    opacity: 0.3; 
+  }
+
+  .footer__logo {
+    margin-right: 0;
+  }
+
+  .footer .intro__social-list {
+    display: none;
+  }
+}

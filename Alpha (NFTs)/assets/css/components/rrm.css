@@ -1,0 +1,139 @@
+.rrm__diff {
+  display: flex;
+  align-items: center;
+  margin-top: 1.666rem;
+}
+
+.rrm__diff-imgs {
+  display: flex;
+}
+
+.rrm__diff-imgs img {
+  width: 6.222rem;
+  height: 6.222rem;
+  margin-left: -1.666rem;
+}
+
+.rrm__diff-imgs img:first-child {
+  margin-left: 0;
+}
+
+.rrm__diff-text {
+  margin-left: 1.666rem;
+  max-width: 11.111rem;
+  line-height: 136%;
+  color: #C0BFB6;
+  font-size: 1rem;
+}
+
+.rrm__nfts {
+  position: relative;
+  height: 21.472rem;
+}
+
+.rrm__nft {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  left: 30%;
+  top: 50%;
+}
+
+.rrm__nft_1 {
+  width: 21.388rem;
+  height: 21.388rem;
+  transform: translate(0, -50%);
+  z-index: 2;
+  left: auto;
+  right: 0;
+}
+
+.rrm__nft_2,
+.rrm__nft_3 {
+  width: 15.111rem;
+  height: 15.111rem;
+}
+
+.rrm__nft_2 {
+  top: auto;
+  bottom: -1.944rem;
+  transform: translate(-50%, 0) rotate(-15deg);
+  z-index: 1;
+}
+
+.rrm__nft_3 {
+  top: -1.944rem;
+  transform: translate(-50%, 0) rotate(15deg);
+}
+
+.rrm__patron {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.rrm__patron-img {
+  position: absolute;
+  transform: translateX(-50%) rotate(15deg);
+  border-radius: 4.444rem;
+  height: 21.111rem;
+  width: 21.111rem;
+  left: 50%;
+  top: 0;
+}
+
+@media (max-width: 767px) {
+  .rrm__nft {
+    position: static;
+    transform: none !important;
+    width: 32% !important;
+    height: 32% !important;
+  }
+
+  .rrm__nfts {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rrm__diff {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .rrm__patron-img {
+    width: 14rem;
+    height: 14rem;
+    bottom: 11rem;
+    border-radius: 20px;
+    left: 73%;
+    top: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .rrm__diff {
+    flex-direction: column;
+  }
+
+  .rrm__diff-text {
+    margin-left: 0;
+    text-align: center;
+    font-size: 1.3rem;
+    max-width: 20rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .rrm__patron-img {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .rrm__patron-img {
+    display: none;
+  }
+}

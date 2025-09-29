@@ -1,0 +1,58 @@
+html,
+body {
+  font-family: 'PF DinDisplay Pro';
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #131314;
+}
+
+html {
+  color: #fff;
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  color: #46A1EB;
+}
+
+a:hover,
+a.active {
+  color: #FBD649;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+img,
+svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hidden {
+  display: none;
+}
+
+.wrapper {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.222rem;
+  padding-right: 2.222rem;
+  box-sizing: border-box;
+  position: relative;
+}

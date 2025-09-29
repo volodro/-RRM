@@ -1,0 +1,41 @@
+.community .title,
+.community .sub-title {
+  text-align: center;
+}
+
+.community .sub-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.community__weapon {
+  width: 14rem;
+  height: 11.833rem;
+  position: absolute;
+  background-image: url(/assets/images/rrm-weapon-nlaw.png);
+  background-size: cover;
+  bottom: -5rem;
+  right: -9rem;
+}
+
+@media (max-width: 1023px) {
+  .community__weapon {
+    width: 9.5rem;
+    height: 8.03rem;
+    right: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .community__weapon {
+    bottom: -3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .community .box-list [class^="col-"]:last-child .box-list__descr {
+    padding-right: 120px;
+  }
+  .community .box-list__descr {
+  }
+}
