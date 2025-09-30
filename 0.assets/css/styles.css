@@ -14,8 +14,8 @@ html {
 }
 
 body {
-  background-image: url('../images/background-pixel.jpg');
-  background-size: cover;
+  background: url('../images/background-pixel.jpg');
+  background-position: fixed;
 }
 
 h1,
@@ -40,8 +40,6 @@ a.active {
 ul {
   margin-top: 0;
   margin-bottom: 0;
-  list-style-type: none;
-  padding: 0;
 }
 
 img,
@@ -74,11 +72,33 @@ svg {
   line-height: 1.8;
 }
 
-.rrm-page_delta {
-  margin: 5rem;
-  box-sizing: border-box;
-  width: 100% !important;
+.rrm-page-delta {
+  margin: 3rem;
+  padding: 3rem;
+  border-radius: 3rem;
   font-family: 'Times New Roman', serif;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.rrm-page-delta h1 {
+  margin-top: 1rem;
+}
+
+.rrm-page-delta h2 {
+  margin-top: 3rem;
+}
+
+.rrm-page-delta h3 {
+  margin-top: 4rem;
+}
+
+.pending {
+  margin-bottom: 2rem;
+}
+
+.pending b {
+  font-weight: normal;
+  color: #FBD649;
 }
 
 .copyright {
