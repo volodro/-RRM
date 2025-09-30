@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Black Ops One';
+    src: local('BlackOpsOne-Regular'),
+        url('../fonts/BlackOpsOne-Regular.woff2') format('woff2'),
+        url('../fonts/BlackOpsOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Good Timing Rg';
+    src: local('GoodTimingRg-Bold'),
+        url('../fonts/GoodTimingRg-Bold.woff2') format('woff2'),
+        url('../fonts/GoodTimingRg-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gunplay';
+    src: local('Gunplay-Regular'),
+        url('../fonts/Gunplay-Regular.woff2') format('woff2'),
+        url('../fonts/Gunplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Toxigenesis Rg';
+    src: local('ToxigenesisRg-Bold'),
+        url('../fonts/ToxigenesisRg-Bold.woff2') format('woff2'),
+        url('../fonts/ToxigenesisRg-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

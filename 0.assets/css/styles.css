@@ -1,14 +1,21 @@
+@import url("fonts.css");
+
 html,
 body {
-  font-family: 'PF DinDisplay Pro';
+  font-family: 'Black Ops One', 'Times New Roman', serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background-color: #131314;
+  font-weight: normal;
 }
 
 html {
   color: #fff;
   font-size: 12px;
+}
+
+body {
+  background-image: url('../images/background-pixel.jpg');
+  background-size: cover;
 }
 
 h1,
@@ -55,4 +62,16 @@ svg {
   padding-right: 2.222rem;
   box-sizing: border-box;
   position: relative;
+}
+
+.rrm-page {
+  max-width: 75%;
+  margin: 3rem auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  max-width: 1200px;
+  line-height: 1.8;
+  font-size: 2rem;
 }
