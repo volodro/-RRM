@@ -20,7 +20,7 @@ Take a look on paused:
 [Protocol Alpha Code Red 🔴](https://realrpgman.vercel.app/Alpha%20(NFTs)/)
 
 Also take a note about:
-[Protocol Bravo Code Orange 🟠](https://101-vercel.app)
+[Protocol Bravo Code Orange 🟠](https://101-army.vercel.app)
 
 Parents of RealRPGMan
 [Reviving Sequoia Trees 🌲](https://www.instagram.com/sequoia.moldova/)
