@@ -13,7 +13,7 @@
 .prove__gallery::before {
   content: '';
   position: absolute;
-  background-image: url(/assets/images/rrm-metal-arm-r.png);
+  background-image: url(../../images/rrm-metal-arm-r.png);
   background-size: cover;
   height: 11.611rem;
   width: 8.833rem;

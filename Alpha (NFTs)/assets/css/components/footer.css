@@ -1,6 +1,6 @@
 .footer {
   position: relative;
-  background-image: url(/assets/images/bg-shadow.png);
+  background-image: url(../../images/bg-shadow.png);
   background-position: 0 0;
   padding-bottom: 2rem;
   padding-top: 2rem;
@@ -31,7 +31,7 @@
   content: '';
   bottom: -2rem;
   position: absolute;
-  background-image: url(/assets/images/rrm-weapons-footer.png);
+  background-image: url(../../images/rrm-weapons-footer.png);
   background-size: cover;
   width: 28.055rem;
   height: 8.5rem;

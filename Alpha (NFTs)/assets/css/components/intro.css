@@ -31,7 +31,7 @@
   width: 23.388rem;
   height: 16.777rem;
   position: absolute;
-  background-image: url(/assets/images/rrm-welcome.png);
+  background-image: url(../../images/rrm-welcome.png);
   background-size: cover;
   opacity: .4;
   left: 0;
@@ -53,7 +53,7 @@
   width: 5.555rem;
   height: 5.555rem;
   background-size: cover;
-  background-image: url(/assets/images/author-welcome.png);
+  background-image: url(../../images/author-welcome.png);
 }
 
 .intro__author-text {
@@ -97,7 +97,7 @@
   height: 40.222rem;
   position: absolute;
   background-size: cover;
-  background-image: url(/assets/images/rrm-warrior.png);
+  background-image: url(../../images/rrm-warrior.png);
   bottom: -2rem;
   z-index: -1;
   right: 0;
