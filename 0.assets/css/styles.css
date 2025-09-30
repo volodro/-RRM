@@ -74,6 +74,13 @@ svg {
   line-height: 1.8;
 }
 
+.rrm-page_delta {
+  margin: 5rem;
+  box-sizing: border-box;
+  width: 100% !important;
+  font-family: 'Times New Roman', serif;
+}
+
 .copyright {
   opacity: .3;
 }
