@@ -102,7 +102,7 @@ svg {
 
 @media (min-width: 390px) {
   body {
-    font-size: 1rem;
+    font-size: .95rem;
   }
 
   .rrm-page h1 {
